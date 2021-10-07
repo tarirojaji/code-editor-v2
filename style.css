@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background: rgba(128, 128, 128, 0.507);
+    
+}
+
+.editor {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    padding: .9em 0;
+    background: rgba( 255, 255, 255, 0.00 );
+    box-shadow: 0px 2px 15px 0 rgba(255, 255, 255, 0.315);
+    backdrop-filter: blur( 9.0px );
+    -webkit-backdrop-filter: blur( 9.0px );
+    border-radius: 10px;
+}
+
+.left {
+    flex: 10%;
+    padding: 1em;
+
+    background: rgba(255, 255, 255, 0.15);
+    /* backdrop-filter: blur( 9.0px );
+    -webkit-backdrop-filter: blur( 9.0px ); */
+    /* border-radius: 10px; */
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.editor-btn {
+    /* border: 2px solid #ccc; */
+    width: 70%;
+    margin-top: 1em;
+    cursor: pointer;
+    font-size: 1.9rem;
+    border: 0;
+    color: gray;
+    background-color: transparent;
+}
+
+.editor-btn:hover {
+    color: turquoise;
+}
+
+.right {
+    flex: 90%;
+    /* flex-direction: column; */
+}
+
+.editor-body {
+    position: relative;
+    height: 70%;
+}
+
+.coder {
+    width: 100%;
+    height: 100%;
+
+    background: rgba(255, 255, 255, 0.15);
+    /* backdrop-filter: blur( 9.0px ); */
+    /* -webkit-backdrop-filter: blur( 9.0px ); */
+    /* border-radius: 10px; */
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
+.footer {
+    height: 30%;
+    overflow: hidden;
+}
+
+.console {
+    height: 100%;
+    width: 100;
+    overflow: auto;
+
+    background: rgba(255, 255, 255, 0.15);
+    /* backdrop-filter: blur( 9.0px );
+    -webkit-backdrop-filter: blur( 9.0px ); */
+    /* border-radius: 10px; */
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

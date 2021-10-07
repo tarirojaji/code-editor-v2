@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor.02</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+</head>
+
+</head>
+<body>
+
+    <div class="editor">
+        <div class="wrapper">
+            <div class="wrapper-top"></div>
+            <div class="left">
+                <button class="editor-btn run"><i class="fas fa-play"></i></button>
+                <button class="editor-btn reset"><i class="fas fa-redo-alt"></i></button>
+            </div>
+            <div class="right">
+                <div class="editor-body">
+                    <div id="coder" class="coder"></div>
+                </div>
+    
+                <div class="footer">
+                    <div class="console">
+                        <pre class="console-logs"></pre>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper-bottom"></div>
+        </div>
+    </div>
+    <script src="/js/ace-editor/src-min/ace.js" type="text/javascript" charset="utf-8"></script>
+    <script src="script.js"></script>
+</body>
+</html>
